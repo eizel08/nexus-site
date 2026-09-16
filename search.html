@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>調べる - NEXUS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="search-page">
+
+        <header class="search-header">
+            <a href="index.html" class="nexus-logo">NEXUS</a>
+
+            <a href="index.html" class="back-button">
+                ← トップへ
+            </a>
+        </header>
+
+        <section class="search-main">
+
+            <h1>調べる</h1>
+
+            <form class="search-box" id="searchForm">
+
+                <input
+                    id="searchInput"
+                    type="text"
+                    placeholder="調べたいことを入力"
+                    autocomplete="off"
+                    spellcheck="false"
+                >
+
+                <button type="submit">
+                    検索
+                </button>
+
+            </form>
+
+            <div id="searchResults" class="search-results">
+                <p>検索ワードを入力してください。</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+use_default_settings: true
+
+server:
+  bind_address: "0.0.0.0"
+  port: 8080
+  secret_key: "NEXUS-search-2026-local-7f3k9x2m"
+
+search:
+  formats:
+    - html
+    - json
+
+general:
+  instance_name: "NEXUS Search"
